@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun  8 11:51:04 2021
+# Process ID: 1928
+# Current directory: C:/Users/tuoma/vivado/BIST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4112 C:\Users\tuoma\vivado\BIST\BIST.xpr
+# Log file: C:/Users/tuoma/vivado/BIST/vivado.log
+# Journal file: C:/Users/tuoma/vivado/BIST\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tuoma/vivado/BIST/BIST.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/tuoma/vivado/BIST/BIST.srcs/sources_1/bd/design_1/design_1.bd}
+launch_sdk -workspace C:/Users/tuoma/vivado/BIST/BIST.sdk -hwspec C:/Users/tuoma/vivado/BIST/BIST.sdk/design_1_wrapper.hdf

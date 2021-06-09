@@ -1,0 +1,635 @@
+18:36:00 **** Build of project BIST_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project BIST ****
+
+Nothing to build for project BIST
+18:37:45 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../BIST_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:38:14 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Selftest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Selftest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Selftest.d" -MT"src/Selftest.o" -o "src/Selftest.o" "../src/Selftest.c"
+'Finished building: ../src/Selftest.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../BIST_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:38:28 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../BIST_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:39:20 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../BIST_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:42:18 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:2: warning: implicit declaration of function 'SelfTest_Execute' [-Wimplicit-function-declaration]
+  SelfTest_Execute();
+  ^~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:42:33 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:44:27 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:44:58 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:46:03 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:46:23 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:46:29 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:46:33 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BIST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BIST.elf  |tee "BIST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19000	   1144	  22568	  42712	   a6d8	BIST.elf
+'Finished building: BIST.elf.size'
+' '
+18:46:47 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:2: warning: implicit declaration of function 'SelfTest_Execute' [-Wimplicit-function-declaration]
+  SelfTest_Execute();
+  ^~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:47:52 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:48:06 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\tuoma\vivado\BIST\BIST.sdk\BIST\Debug/../src/main.c:17: undefined reference to `SelfTest_Execute'
+collect2.exe: error: ld returned 1 exit status
+make: *** [BIST.elf] Virhe 1
+18:57:09 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Selftest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Selftest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Selftest.d" -MT"src/Selftest.o" -o "src/Selftest.o" "../src/Selftest.c"
+../src/Selftest.c: In function 'SelfTest_Execute':
+../src/Selftest.c:16:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Start built in self test\n\n");
+  ^~~~~~
+../src/Selftest.c:16:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/Selftest.c:16:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:27:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(0);
+   ^~~~
+../src/Selftest.c:27:3: warning: incompatible implicit declaration of built-in function 'exit'
+../src/Selftest.c:27:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/Selftest.c: In function 'SelfTest_Run':
+../src/Selftest.c:50:20: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *phybisterr = 0xF80061B0;
+                    ^~~~~~~~~~
+../src/Selftest.c:61:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr0 = 0xE0008018;
+                 ^~~~~~~~~~
+../src/Selftest.c:62:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr1 = 0xE0009018;
+                 ^~~~~~~~~~
+../src/Selftest.c:71:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *eccerr = 0xF80060DC;
+                ^~~~~~~~~~
+../src/Selftest.c:78:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr0 = 0xE0002144;
+                 ^~~~~~~~~~
+../src/Selftest.c:79:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr1 = 0xE0003144;
+                 ^~~~~~~~~~
+../src/Selftest.c:97:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:97:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:108:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:108:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:112:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:112:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:119:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:119:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:123:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:123:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:130:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:130:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:134:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:134:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:141:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tFAILED\t\n");
+    ^~~~~~
+../src/Selftest.c:141:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:145:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:145:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:152:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:152:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:156:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:156:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/Selftest.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BIST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BIST.elf  |tee "BIST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34020	   2200	  22648	  58868	   e5f4	BIST.elf
+'Finished building: BIST.elf.size'
+' '
+18:59:31 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Kohteelle "main-build" ei tarvitse tehd‰ mit‰‰n.
+19:00:04 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Kohteelle "main-build" ei tarvitse tehd‰ mit‰‰n.
+19:00:17 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Selftest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Selftest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Selftest.d" -MT"src/Selftest.o" -o "src/Selftest.o" "../src/Selftest.c"
+../src/Selftest.c: In function 'SelfTest_Execute':
+../src/Selftest.c:16:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Start built in self test\n\n");
+  ^~~~~~
+../src/Selftest.c:16:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/Selftest.c:16:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:27:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(0);
+   ^~~~
+../src/Selftest.c:27:3: warning: incompatible implicit declaration of built-in function 'exit'
+../src/Selftest.c:27:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/Selftest.c: In function 'SelfTest_Run':
+../src/Selftest.c:50:20: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *phybisterr = 0xF80061B0;
+                    ^~~~~~~~~~
+../src/Selftest.c:61:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr0 = 0xE0008018;
+                 ^~~~~~~~~~
+../src/Selftest.c:62:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr1 = 0xE0009018;
+                 ^~~~~~~~~~
+../src/Selftest.c:71:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *eccerr = 0xF80060DC;
+                ^~~~~~~~~~
+../src/Selftest.c:78:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr0 = 0xE0002144;
+                 ^~~~~~~~~~
+../src/Selftest.c:79:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr1 = 0xE0003144;
+                 ^~~~~~~~~~
+../src/Selftest.c:97:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:97:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:108:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:108:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:112:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:112:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:119:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:119:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:123:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:123:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:130:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:130:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:134:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:134:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:141:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tFAILED\t\n");
+    ^~~~~~
+../src/Selftest.c:141:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:145:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:145:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:152:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:152:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:156:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:156:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/Selftest.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BIST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BIST.elf  |tee "BIST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34020	   2200	  22648	  58868	   e5f4	BIST.elf
+'Finished building: BIST.elf.size'
+' '
+19:00:48 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Kohteelle "main-build" ei tarvitse tehd‰ mit‰‰n.
+19:00:53 **** Auto Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Selftest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Selftest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BIST_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Selftest.d" -MT"src/Selftest.o" -o "src/Selftest.o" "../src/Selftest.c"
+../src/Selftest.c: In function 'SelfTest_Execute':
+../src/Selftest.c:16:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Start built in self test\n\n");
+  ^~~~~~
+../src/Selftest.c:16:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/Selftest.c:16:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:27:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(0);
+   ^~~~
+../src/Selftest.c:27:3: warning: incompatible implicit declaration of built-in function 'exit'
+../src/Selftest.c:27:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/Selftest.c: In function 'SelfTest_Run':
+../src/Selftest.c:50:20: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *phybisterr = 0xF80061B0;
+                    ^~~~~~~~~~
+../src/Selftest.c:61:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr0 = 0xE0008018;
+                 ^~~~~~~~~~
+../src/Selftest.c:62:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *canerr1 = 0xE0009018;
+                 ^~~~~~~~~~
+../src/Selftest.c:71:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *eccerr = 0xF80060DC;
+                ^~~~~~~~~~
+../src/Selftest.c:78:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr0 = 0xE0002144;
+                 ^~~~~~~~~~
+../src/Selftest.c:79:17: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *usberr1 = 0xE0003144;
+                 ^~~~~~~~~~
+../src/Selftest.c:97:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:97:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("BIST pattern mismatch check\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:108:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:108:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:112:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 0 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:112:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:119:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:119:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:123:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("CAN 1 controller test\t\t\t\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:123:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:130:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:130:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:134:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("Uncorrectable ECC error test\t\t\t\t\t\t\t\t\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:134:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:141:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tFAILED\t\n");
+    ^~~~~~
+../src/Selftest.c:141:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:145:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB0 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:145:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:152:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tFAILED\n");
+    ^~~~~~
+../src/Selftest.c:152:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Selftest.c:156:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("AHB USB1 interconnect system error (EHCI) test\t\tPASSED\n");
+    ^~~~~~
+../src/Selftest.c:156:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/Selftest.c'
+' '
+'Building target: BIST.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BIST_bsp/ps7_cortexa9_0/lib -o "BIST.elf"  ./src/Selftest.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BIST.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BIST.elf  |tee "BIST.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34020	   2200	  22648	  58868	   e5f4	BIST.elf
+'Finished building: BIST.elf.size'
+' '
+19:01:01 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Kohteelle "main-build" ei tarvitse tehd‰ mit‰‰n.
+16:08:54 **** Incremental Build of configuration Debug for project BIST ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Kohteelle "main-build" ei tarvitse tehd‰ mit‰‰n.
