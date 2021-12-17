@@ -15,13 +15,9 @@ Instructions for using unit tests
 2. Move networking_test.c and networking_test.h to folder “..\Networking-between-PC-and-SoC-FPGA\server\tests”
 3. Edit “..\Networking-between-PC-and-SoC-FPGA\server\networking.c” source file by adding two functions more
 
-u32* read_data_in() {  
-    return data_in;
-}
+u32* read_data_in() {return data_in;}
 
-u32* read_data_out() {
-    return data_out;
-}
+u32* read_data_out() {return data_out;}
 
 4. Edit “..\Networking-between-PC-and-SoC-FPGA\server\main.c” source file by including header networking_test.h to line 48 for example and call function run_networking_tests() for example in line 165
 
