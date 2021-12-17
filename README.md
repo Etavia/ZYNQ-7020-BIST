@@ -13,21 +13,9 @@ unit_tests folder contains unit tests for Networking Between PC and SoC-FPGA.
 Instructions for using unit tests
 1. Create project “Networking between PC and SoC-FPGA” by downloading it from: https://github.com/squarematr1x/Networking-between-PC-and-SoC-FPGA and follo instructions.
 2. Move networking_test.c and networking_test.h to folder “..\Networking-between-PC-and-SoC-FPGA\server\tests”
-3. Edit “..\Networking-between-PC-and-SoC-FPGA\server\networking.c” source file
-void print_app_header() {
-#if (LWIP_IPV6==0)
-    xil_printf("\n\r\n\r-----lwIP TCP ICAT3170 server ------\n\r");
-#endif
-}
+3. Edit “..\Networking-between-PC-and-SoC-FPGA\server\networking.c” source file by adding two functions more
 
-void set_buffers() {
-    data_in = (u32*) RX_BUFFER_BASE;
-    data_out = (u32*) TX_BUFFER_BASE;
-    data_in = (u32*)0x1;
-}
-
-u32* read_data_in() {   <- Add this
-
+u32* read_data_in() {  
     return data_in;
 }
 
@@ -35,60 +23,6 @@ u32* read_data_out() {
     return data_out;
 }
 
-/* Append new data to the end of previously received data (not in use atm) */
-void append8(u8* raw_data, u8* new_data, u16_t n) {
-    for (int i = 0; i < n; i++) {
-        raw_data[last_i] = new_data[i];
-        last_i++;
-    }
-}
+4. Edit “..\Networking-between-PC-and-SoC-FPGA\server\main.c” source file by including header networking_test.h to line 48 for example and call function run_networking_tests() for example in line 165
 
-4. Edit “..\Networking-between-PC-and-SoC-FPGA\server\main.c” source file
-#include <stdio.h>
-
-#include "xparameters.h"
-
-#include "netif/xadapter.h"
-
-#include "platform.h"
-#include "platform_config.h"
-#if defined (__arm__) || defined(__aarch64__)
-#include "xil_printf.h"
-#endif
-
-#include "lwip/tcp.h"
-#include "xil_cache.h"
-
-#include "tests\networking_test.h" <- Add this
-
-#if LWIP_IPV6==1
-#include "lwip/ip.h"
-#else
-#if LWIP_DHCP==1
-#include "lwip/dhcp.h"
-#endif
-#endif
-
-and
-
-#if LWIP_IPV6==0
-#if LWIP_DHCP==1
-    ipaddr.addr = 0;
-    gw.addr = 0;
-    netmask.addr = 0;
-#else
-    // initliaze IP addresses to be used
-    IP4_ADDR(&ipaddr,  192, 168,   1, 10);
-    IP4_ADDR(&netmask, 255, 255, 255,  0);
-    IP4_ADDR(&gw,      192, 168,   1,  1);
-#endif  
-#endif
-
-    run_networking_tests(); <- Add this
-
-    print_app_header();
-
-    lwip_init();
-
-
-4. Run main.c. Test results are printed to terminal.
+5. Run main.c. Test results are printed to terminal.
