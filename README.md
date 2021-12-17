@@ -11,7 +11,7 @@ Instructions and prerequisites for using this project
 unit_tests folder contains unit tests for Networking Between PC and SoC-FPGA.
 
 Instructions for using unit tests
-1. Create project “Networking between PC and SoC-FPGA” by downloading it from: https://github.com/squarematr1x/Networking-between-PC-and-SoC-FPGA and follo instructions.
+1. Create project “Networking between PC and SoC-FPGA” by downloading it from: https://github.com/squarematr1x/Networking-between-PC-and-SoC-FPGA and follow instructions.
 2. Move networking_test.c and networking_test.h to folder “..\Networking-between-PC-and-SoC-FPGA\server\tests”
 3. Edit “..\Networking-between-PC-and-SoC-FPGA\server\networking.c” source file by adding two functions more
 
